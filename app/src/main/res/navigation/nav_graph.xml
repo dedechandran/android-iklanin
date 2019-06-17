@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/usahaku_destination">
+
+    <fragment
+        android:id="@+id/usahaku_destination"
+        android:name="com.example.iklanin.ui.UsahakuFragment"
+        android:label="fragment_usahaku"
+        tools:layout="@layout/fragment_usahaku" />
+    <fragment
+        android:id="@+id/iklanku_destination"
+        android:name="com.example.iklanin.ui.IklankuFragment"
+        android:label="fragment_iklanku"
+        tools:layout="@layout/fragment_iklanku" />
+    <fragment
+        android:id="@+id/keranjang_destination"
+        android:name="com.example.iklanin.ui.KeranjangFragment"
+        android:label="fragment_keranjang"
+        tools:layout="@layout/fragment_keranjang" />
+    <fragment
+        android:id="@+id/transaksi_destination"
+        android:name="com.example.iklanin.ui.TransaksiFragment"
+        android:label="fragment_transaksi"
+        tools:layout="@layout/fragment_transaksi" />
+    <fragment
+        android:id="@+id/akun_destination"
+        android:name="com.example.iklanin.ui.AkunFragment"
+        android:label="fragment_akun"
+        tools:layout="@layout/fragment_akun" />
+</navigation>

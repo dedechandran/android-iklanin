@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">iklanin</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Masuk</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="masuk">Masuk</string>
+    <string name="atau">Atau</string>
+    <string name="daftar_sekarang">Daftar Sekarang</string>
+    <string name="daftar_sebagai">Daftar Sebagai</string>
+    <string name="pengiklan">Pengiklan</string>
+    <string name="penerbit">Penerbit</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="alamat_spesifik">Alamat Spesifik</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="lanjutkan">Lanjutkan</string>
+    <string name="kirim">kirim</string>
+    <string name="nama_usaha">Nama Usaha</string>
+    <string name="deskripsi_usaha">Deskripsi Usaha</string>
+    <string name="jenis_usaha">Jenis Usaha</string>
+    <string name="lokasi_usaha">Lokasi Usaha</string>
+    <string name="pilih_objek_wisata_yang_dekat_dengan_lokasi_usaha_anda_sekarang">Pilih Objek Wisata yang Dekat Dengan Lokasi Usaha Anda sekarang :</string>
+    <string name="kota">Kota</string>
+    <string name="telah_menyetujui_persayaratan_dan_ketentuan_yang_telah_dibuat">Telah Menyetujui Persayaratan dan Ketentuan yang Telah Dibuat</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="no">no</string>
+    <string name="yes">yes</string>
+    <string name="dialog_confirmation_message">Apakah data yang Anda masukkan sudah benar?</string>
+    <string name="usahaku">Usahaku</string>
+    <string name="iklanku">Iklanku</string>
+</resources>

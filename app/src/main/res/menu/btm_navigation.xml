@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/usahaku_destination"
+        android:title="@string/usahaku"
+        android:icon="@drawable/ic_icon_usaha"
+        />
+    <item
+        android:id="@+id/iklanku_destination"
+        android:title="@string/iklanku"
+        android:icon="@drawable/ic_icon_pengiklan"
+        />
+    <item
+        android:id="@+id/keranjang_destination"
+        android:title="@string/usahaku"
+        android:icon="@drawable/ic_icon_usaha"
+        />
+    <item
+        android:id="@+id/transaksi_destination"
+        android:title="@string/iklanku"
+        android:icon="@drawable/ic_icon_pengiklan"
+        />
+    <item
+        android:id="@+id/akun_destination"
+        android:title="@string/usahaku"
+        android:icon="@drawable/ic_icon_usaha"
+        />
+
+</menu>

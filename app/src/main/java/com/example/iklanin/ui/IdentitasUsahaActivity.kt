@@ -12,6 +12,7 @@ class IdentitasUsahaActivity : AppCompatActivity() {
         setContentView(R.layout.activity_identitas_usaha)
         supportActionBar?.setHomeAsUpIndicator(R.drawable.ic_close)
         supportActionBar?.title = "Identitas Usaha"
+
         val btnLanjutkan = findViewById<Button>(R.id.btn_kirim_usaha)
         btnLanjutkan.setOnClickListener {
             val dialog = ConfirmationDialog()

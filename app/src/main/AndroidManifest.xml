@@ -15,7 +15,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".ui.DataPembayaranActivity"></activity>
+        <activity android:name=".ui.PublisherIdentitasDiriActivity"></activity>
+        <activity android:name=".ui.DataPembayaranActivity" />
         <activity
             android:name=".ui.IdentitasUsahaActivity"
             android:parentActivityName=".ui.IdentitasDiriActivity">
@@ -37,7 +38,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.iklanin.ui.LoginActivity" />
         </activity>
-
         <activity
             android:name=".ui.LoginActivity"
             android:launchMode="singleTop"
@@ -47,13 +47,10 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-
-        <activity android:name=".ui.MainActivity"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
+        <activity
+            android:name=".ui.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

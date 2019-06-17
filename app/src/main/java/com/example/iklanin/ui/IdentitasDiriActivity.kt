@@ -13,6 +13,7 @@ class IdentitasDiriActivity : AppCompatActivity() {
         setContentView(R.layout.activity_identitas_diri)
         supportActionBar?.setHomeAsUpIndicator(R.drawable.ic_close)
         supportActionBar?.title = "Identitas Diri"
+
         val btnLanjutkan = findViewById<Button>(R.id.btn_lanjutkan_identitas_diri)
         btnLanjutkan.setOnClickListener {
             val intent = Intent(this, IdentitasUsahaActivity::class.java)

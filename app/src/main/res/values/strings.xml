@@ -39,4 +39,8 @@
     <string name="dialog_confirmation_message">Apakah data yang Anda masukkan sudah benar?</string>
     <string name="usahaku">Usahaku</string>
     <string name="iklanku">Iklanku</string>
+    <string name="nama_Layanan_Bus">Nama Layanan Bus</string>
+    <string name="deskripsi_layanan_bus">Deskripsi Layanan Bus</string>
+    <string name="jumlah_bus">jumlah bus</string>
+    <string name="persetujuan">Telah menyetujui Persyaratan dan Ketentuan yang berlaku</string>
 </resources>

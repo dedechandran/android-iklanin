@@ -21,6 +21,14 @@ class RegistrationActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val btnRegisterPenerbit = findViewById<Button>(R.id.btn_register_as_penerbit)
+        btnRegisterPenerbit.setOnClickListener {
+            val intent = Intent(this, PublisherIdentitasDiriActivity::class.java)
+            startActivity(intent)
+        }
+
+
+
 
     }
 }
